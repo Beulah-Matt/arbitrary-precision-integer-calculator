@@ -48,3 +48,4 @@ function subtract(a, b) {
   while (result.length > 1 && result[result.length - 1] === 0) result.pop();
   return result.reverse().join('');
 }
+module.exports = divide;

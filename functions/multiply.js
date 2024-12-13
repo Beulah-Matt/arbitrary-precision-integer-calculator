@@ -35,3 +35,5 @@ function multiply(a, b) {
 
   return result.reverse().join(''); // Reverse and join the result array into a string
 }
+
+module.exports = multiply;

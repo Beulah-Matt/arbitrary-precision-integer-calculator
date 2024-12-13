@@ -48,3 +48,4 @@ function add(a, b) {
   // Reverse the result array and join it into a string for final output
   return result.reverse().join('');
 }
+module.exports = add;

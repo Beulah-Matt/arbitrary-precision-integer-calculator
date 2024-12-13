@@ -52,3 +52,4 @@ function subtract(a, b) {
   // Reverse the result and add a negative sign if needed
   return (isNegative ? '-' : '') + result.reverse().join('');
 }
+module.exports = subtract;
