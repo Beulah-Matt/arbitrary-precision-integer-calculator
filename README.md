@@ -13,3 +13,28 @@ To solve the arbitrary precision problem in Javascript, the limitations of Stand
  - Use basic math methods for addition, subtraction, and multiplication.
  - For division and modulo, implement long division. 
  - Use repeated squaring for efficient exponentiation.
+
+## Installation
+My folder structure is as follows: 
+  project/
+  │
+  ├── functions/
+  │   ├── addition.js          # Addition logic
+  │   ├── subtraction.js     # Subtraction logic
+  │   ├── multiply.js     # Multiplication logic
+  │   ├── divide.js       # Division logic
+  │
+  ├── repl.js              # REPL implementation
+  ├── README.md            # Documentation
+
+To run  the project: 
+- Node.js (version 14 or higher): Ensure that Node.js is installed on your machine.
+- Clone the repo: git clone https://github.com/Beulah-Matt/arbitrary-precision-integer-calculator
+- Navigate into the project directory: cd arbitrary-precision-integer-calculator
+- Start the repl by running: node repl.js
+- Test addition, subtraction, multiplication and division. 
+- To exit, press ctrl + C
+
+```
+  I have not implemented exponential, factorial and modulo at this time. 
+```  
